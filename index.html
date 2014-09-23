@@ -1,0 +1,317 @@
+<!DOCTYPE HTML>
+<html lang="en" prefix="og: http://ogp.me/ns#">
+  <head>
+    <meta charset="utf-8">
+    
+      <title>梅吉</title>
+    
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <!--link href='http://fonts.googleapis.com/css?family=Poly:400,400italic' rel='stylesheet' type='text/css'-->
+    <link rel="stylesheet" media="screen, projection" href="/res/screen.css" type="text/css">
+    <link rel="stylesheet" media="print" href="/res/print.css" type="text/css">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link rel="apple-touch-icon-precomposed" href="/res/apple-touch-icon-57x57-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="/res/apple-touch-icon-72x72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/res/apple-touch-icon-114x114-precomposed.png">
+    
+    
+      <meta name="description" content="Personal Blog of Lijing Qin">
+    
+    
+    
+    
+    <meta property="og:url" content="http://gm6.me/">
+    <meta property="og:site_name" content="gm6.me">
+    <meta property="og:type" content="article">
+    <meta property="og:locale" content="en_GB" />
+    
+    
+    <script>
+  //html { zoom:50%; }
+  if (window.addEventListener) {
+    var sidebarAdjustTimer;
+    function updateOrientation(orientationChangeEvent) {
+      if (sidebarAdjustTimer) clearInterval(sidebarAdjustTimer);
+      //console.log('window.orientation -> '+window.orientation);
+      if (window.orientation === -90 || window.orientation === 90) {
+        // landscape
+        var sidebar = document.getElementById('sidebar');
+        if (!sidebar.src || sidebar.src === '') {
+          sidebar.src = '/archive/sidebar.html';
+        }
+        sidebarAdjustTimer = setInterval(function() {
+          var height = Math.round(document.height * 1.6);
+          if (sidebar.height != height) {
+            sidebar.height = height;
+            sidebar.style.height = height + 'px';
+          }
+        },500);
+      } else {
+        // portrait
+      }
+    }
+    window.addEventListener('orientationchange', updateOrientation);
+    document.addEventListener('DOMSubtreeModified', function(ev) {
+      if (document.getElementById('sidebar')) {
+        document.removeEventListener('DOMSubtreeModified', arguments.callee);
+        updateOrientation();
+      }
+    });
+  }
+</script>
+    
+    
+  </head>
+  <body>
+    
+    <iframe id="sidebar"></iframe>
+    <header>
+      <h1 class="logo" onclick="document.location.href='/';">
+        <a href="/"><img src="/res/signature-mm-trans.png" width="87" height="50" alt="Signature"></a>        
+      </h1>
+      <!--h1 class="logo" onclick="document.location.href='/';"><a href="/"><img src="/res/signature-2-2.png" width="160" height="50" alt="Signature"></a></h1-->
+      <ul class="navigation">
+        <li><a href="/novels/" title="查看所有之前的文章">小说</a></li>        
+        <li><a href="/poems/" title="查看梅吉的诗">诗</a></li>        
+        <!--li><a href="/photos/" title="A selection of recent photography">影像</a></li-->        
+        <li><a href="/papers/" title="梅吉的学术主页">学术</a></li>                        
+        <li><a href="/archive/" title="查看所有之前的文章">闲言碎语</a></li>
+        <li><a href="/about/">关于梅吉</a></li>
+      </ul>
+    </header>
+
+
+    <!--div class="wrapper content"-->
+      <!-- <div class="content full-bleed intro">
+  Welcome to my homepage!!1
+</div> -->
+<div class="posts">
+  <div class="content full-bleed" id="recent-posts">
+  <a href="/" class="post-excerpt photo">
+    <div class="padded-content">
+      <div class="image" style="background-image:url('http://c2.staticflickr.com/4/3901/14217520949_80bb9c873e_b.jpg')"></div>
+    </div>
+  </a>
+  <!--a href="/" class="post-excerpt">
+    <div class="padded-content">
+      <div class="title"> 梅吉推荐 </div>
+      <span class="body">
+        This is the highlight.
+
+      </span>
+    </div>
+  </a-->
+  
+    <a href="/2014/09/01/true-detective.html" class="post-excerpt">
+      <div class="padded-content">
+        <div class="title">真探</div>
+      
+        <!-- <div class="title">真探</div> -->
+        <info datetime="">
+          Sep 2014
+        </info>
+        
+        <span class="body">今夏追的美剧里最值得一书的是《真探》。片头曲旋律响起的时候就被深深吸引了，看了歌词后，简直惊为天人。歌名叫Far away from any road，是一个叫the handsome family的夫妻店乐队在2003年出的专辑里的一首歌，不知什么样的爱情会催生出这样带着宿命感和鬼魅气质的音乐。</span>
+        
+      <!-- post.photo_url -->
+      </div>
+    </a>
+  
+    <a href="/2014/08/23/yutou.html" class="post-excerpt">
+      <div class="padded-content">
+        <div class="title">鱼头汤</div>
+      
+        <!-- <div class="title">鱼头汤</div> -->
+        <info datetime="">
+          Aug 2014
+        </info>
+        
+        <span class="body">老是听gg说起鱼头汤，他小时候的最爱。这道汤菜的配料里有猪肉，这位同学小学时有一次吃猪肉吃伤了，现在是“伪回民”，不吃猪肉。所以，他已经很久没有喝一口鱼头汤了，甚至已经忘了这道菜是不是辣的。
+</span>
+        
+      <!-- post.photo_url -->
+      </div>
+    </a>
+  
+    <a href="/2014/08/17/hongkong.html" class="post-excerpt">
+      <div class="padded-content">
+        <div class="title">香港，香港</div>
+      
+        <!-- <div class="title">香港，香港</div> -->
+        <info datetime="">
+          Aug 2014
+        </info>
+        
+        <span class="body">雨昼夜不息、腻腻歪歪地下了好几天，昨天总算在抽泣中最终停了下来。今天，烈日重现，气温回升，好像那个被雨水冲走的夏天又掉头回来了，带着它的低气压和炎热。然而，日近西山时，我们还是发觉，这个夏天真的是过到尾巴了。此刻，天空如洗，夕阳如金，山风拂面，这个城市明朗、开阔又沉静。我和夏天一样，马上要离开这座城市了。夏天明年还会来，我就不知道几时再来了。gg总是说，这个破地方给钱也不要再来了，而我，还是愿意在记忆里留存关于这个城市的温柔。
+</span>
+        
+      <!-- post.photo_url -->
+      </div>
+    </a>
+  
+  <div class="breaker"></div>
+  <div class="end">
+    
+  </div>
+  </div>
+</div>
+<script type="text/javascript">
+(function(f){
+  var onload = function(f) {
+    if (window.addEventListener) {
+      window.addEventListener('DOMContentLoaded', f, false);
+    } else {
+      window.attachEvent('onload', f);
+    }
+  };
+  onload(function(){
+    f();
+    if (window.addEventListener) {
+      window.addEventListener('resize', f, false);
+    } else {
+      window.attachEvent('resize', f);
+    }
+  });
+})(function(){
+  var winw = window.innerWidth, w; //, width_thresholds = [680, 780];
+  w = window.__post_grid_width;
+
+  if ( (w !== undefined) &&
+       ( (w === 680 && winw < 680) ||
+         (w === 780 && winw >= 680 && winw < 780) ||
+         (w === 10000 && winw >= 780)
+       )
+     )
+  {
+    // console.log('noop w:', w+ ', winw:', winw);
+    return;
+  } else {
+    window.__post_grid_width = w =
+      winw > 780 ? 10000 :
+      winw > 680 ? 780 :
+                   680;
+    // console.log('op w:', w);
+  }
+
+  var posts = document.getElementById('recent-posts');
+  var child_nodes = posts.childNodes, k, node, h,
+      col_width, col0_y, col1_y, col1_x,
+      origin = {x:0, y:0}, node_count = 0, is_col0, row0_max_y;
+
+  posts.style.position = (window.__post_grid_width <= 680) ? null : 'relative';
+
+  for (k in child_nodes) {
+    node = child_nodes[k];
+    if (node.nodeType === Node.ELEMENT_NODE) {
+      if (node.className === 'breaker') {
+        if (window.__post_grid_width <= 680) {
+          node.style.height = null;
+        } else {
+          node.style.height = (Math.max(col0_y, col1_y) - row0_max_y) + 'px';
+        }
+        break;
+      }
+      if (col0_y === undefined) {
+        origin.x = node.offsetLeft;
+        origin.y = node.offsetTop;
+        col_width = node.clientWidth;
+        col0_y = origin.y + node.clientHeight;
+        row0_max_y = col0_y;
+      } else {
+        if (col1_y === undefined) {
+          col1_y = origin.y + node.clientHeight;
+          col1_x = origin.x + node.clientWidth;
+          if (col1_y > row0_max_y) {
+            row0_max_y = col1_y;
+          }
+        } else {
+          if (window.__post_grid_width <= 680) {
+            // console.log('Clear');
+            node.style.position = null;
+            node.style.width = null;
+            node.style.left = null;
+            node.style.top = null;
+          } else {
+            is_col0 = (node_count % 2) === 0;
+            node.style.position = 'absolute';
+            node.style.width = col_width + 'px';
+            if (is_col0) {
+              node.style.left = origin.x + 'px';
+              node.style.top = col0_y + 'px';
+              col0_y += node.clientHeight;
+            } else {
+              node.style.left = col1_x + 'px';
+              node.style.top = col1_y + 'px';
+              col1_y += node.clientHeight;
+            }
+          }
+          // console.dir(node);
+        }
+      }
+      ++node_count;
+    }
+  }
+
+});
+</script>
+
+    <!--/div-->
+    
+    
+    
+    
+    
+    
+    <footer>
+      <p>
+        This website is built based on <a href="http://rsms.me">rsms.me</a>.<br/>        
+        <!--a rel="license" href="http://creativecommons.org/licenses/by/3.0/deed.en_US" class="cc"><img src="/res/cc-cc.png" class="cc">
+        <img src="/res/cc-by.png" class="cc"></a>
+        This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/3.0/deed.en_US">Creative Commons License</a-->
+      </p>
+    </footer>
+    
+    
+    <script>
+  // curry pre < code to be able to get prettified
+  // If the first line is
+  //   #!-langname\n
+  // Then that line is removed from the code and "langname" is given to prettify.
+  // If "langname" is "none", that prettify is not applied at all.
+  var n,i,L,cn,lang,v = document.getElementsByTagName('pre');
+  var m,lang_re = /^#\!-([a-zA-Z0-9_-]+)\n/;
+  for (i=0,L=v.length;i<L;++i) {
+    n = v.item(i);
+    if ((cn = n.firstChild) && cn.nodeName == 'CODE') {
+      lang = null;
+      if (cn.firstChild.nodeType === Node.TEXT_NODE) {
+        m = lang_re.exec(cn.firstChild.nodeValue);
+        if (m) {
+          lang = m[1].toLowerCase();
+          cn.firstChild.nodeValue = cn.firstChild.nodeValue.substr(m[0].length);
+          if (lang === 'none') {
+            continue;
+          }
+        }
+      }
+      n.setAttribute('class', 'prettyprint'+(lang ? ' lang-' + lang : ''));
+    }
+  }
+</script>
+<script async src="/res/prettify.js"></script>
+
+    <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-51806588-1', 'gm6.me');
+  ga('send', 'pageview');
+
+</script>
+  </body>
+</html>
