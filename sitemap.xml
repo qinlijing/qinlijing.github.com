@@ -2,37 +2,37 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>http://gm6.me/papers/</loc>
-    <lastmod>2014-10-22T22:47:26-07:00</lastmod>
+    <lastmod>2014-10-22T23:29:36-07:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>  
   <url>
     <loc>http://gm6.me/</loc>
-    <lastmod>2014-10-22T22:47:26-07:00</lastmod>
+    <lastmod>2014-10-22T23:29:36-07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>http://gm6.me/about/</loc>
-    <lastmod>2014-10-22T22:47:26-07:00</lastmod>
+    <lastmod>2014-10-22T23:29:36-07:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>http://gm6.me/novels/</loc>
-    <lastmod>2014-10-22T22:47:26-07:00</lastmod>
+    <lastmod>2014-10-22T23:29:36-07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>http://gm6.me/poems/</loc>
-    <lastmod>2014-10-22T22:47:26-07:00</lastmod>
+    <lastmod>2014-10-22T23:29:36-07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>http://gm6.me/archive/</loc>
-    <lastmod>2014-10-22T22:47:26-07:00</lastmod>
+    <lastmod>2014-10-22T23:29:36-07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
